@@ -1,0 +1,33 @@
+.flexContainer{
+    display:flex;
+    background-color: rgb(255, 134, 134);
+    align-content: space-between;
+    flex-wrap:wrap; /* wraps the content in a smaller window*/
+}
+.flexContainer >  div, .flexcolumn > div{ /*määrittää div muodon flexcontainer--luokan sisällä - lisää myös puuttuvat muodot flexcolumniin*/
+    background-color: yellow;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size:30px;
+    width:fit-content;
+}
+
+.flexcolumn{
+    display: flex;
+    background-color: red;
+    flex-direction: column;
+}
+
+.box{ /* kaikki luokat voi nimetä miten vaan*/
+    float: left;
+    width:200px;
+    background-color: rgb(104, 202, 104);
+    min-height:400px;
+}
+
+header, footer{
+    height: 100px;
+    background-color: yellow;
+    
+}

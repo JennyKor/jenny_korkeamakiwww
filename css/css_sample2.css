@@ -1,0 +1,29 @@
+h1{
+    color:rgb(121, 2, 2);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-style: uppercase;
+}
+
+p{
+    font-size:11px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(14, 14, 14);
+}
+h1.warning,note{
+    color:blue;
+    background-color:yellow;
+}
+
+#note1{
+    color:green;
+}
+
+.comment{
+    border: 4px solid #666;
+    padding: 5px;
+    background-color:rgb(245, 245, 186);
+}
+article > p{
+    font-weight: bold;
+}
