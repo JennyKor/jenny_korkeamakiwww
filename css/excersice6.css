@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(219, 219, 219);
+    font-size:16px;
+}
+
+.container{
+    background-color: whitesmoke;
+    padding:0px;
+}
+
+.navbar{
+    padding-bottom: 30px;
+    margin-top:-55px;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+h1{
+    font-size:34px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left:65px;
+    padding-bottom:25px;
+    margin-top:35px;
+}
+
+p{
+    text-align: justify;
+    padding-right:65px;
+    padding-left:65px;
+    padding-bottom:35px;
+}
+
+.footer{
+    background-color: rgb(219, 219, 219);
+    font-size:12px;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+table{
+    
+    border: 1px solid red;
+    width:350px;
+}
+
+
+
+th, td, tr{
+    border: 1px solid red;
+    padding:7px;
+    min-width:65px;
+}
