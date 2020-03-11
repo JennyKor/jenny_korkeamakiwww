@@ -31,6 +31,9 @@ figure{
     font-size: smaller;
 }
 
+video {
+    padding:15px;
+}
 
 figcaption{
     display: table-caption;
