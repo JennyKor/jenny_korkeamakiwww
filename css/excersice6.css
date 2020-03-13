@@ -7,6 +7,8 @@ body{
     position: relative;
     background-color: whitesmoke;
     padding:0px;
+    height:100%;
+    padding-bottom:20px;
 }
 
 .navbar{
@@ -37,8 +39,9 @@ h1{
     padding-bottom:35px;
 }
 
-ul{
-    padding-left: 50px;
+.list{
+    position: relative;
+    margin-bottom: 30px;
 }
 
 .img1{
@@ -48,15 +51,16 @@ ul{
 }
 
 .img2{
+    display:block;
     float:left;
-    padding-right:30px;
     padding-top:10px;
-    padding-bottom:40px;
+    margin-right:45px;
+    
 }
 
 figcaption{
     font-size: 10px;
-    padding-top:5px;
+    padding-top:5px;  
 }
 
 footer{
