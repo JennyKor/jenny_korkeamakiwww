@@ -30,11 +30,15 @@ h1{
 }
 
 .textcontainer{
-    
+    background-color: whitesmoke;
     text-align: justify;
     padding-right:65px;
     padding-left:65px;
     padding-bottom:35px;
+}
+
+ul{
+    padding-left: 50px;
 }
 
 .img1{
@@ -66,14 +70,23 @@ footer{
 
 table{
     
-    border: 1px solid red;
-    width:350px;
+    border: 1px solid rgb(216, 216, 216);
+    width:400px;
+    margin-bottom:40px;
+    margin-top:40px;
 }
 
 
 
-th, td, tr{
-    border: 1px solid red;
+th{
+    background-color: rgb(206, 206, 206);
+    padding:7px;
+    text-align: center;
+} 
+
+
+td, tr{
+    border: 1px solid rgb(206, 206, 206);
     padding:7px;
     min-width:65px;
 }
